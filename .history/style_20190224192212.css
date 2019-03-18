@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 
+}

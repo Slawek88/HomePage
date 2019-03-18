@@ -1,0 +1,18 @@
+body {
+    background: #f4f4f4;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    
+}
+
+.grid-item {
+    background: #ff00fb;
+    color: #fff;
+    display: flex;
+}

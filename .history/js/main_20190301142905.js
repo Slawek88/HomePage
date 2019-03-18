@@ -1,0 +1,1 @@
+btn = document.addEventListener

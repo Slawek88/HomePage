@@ -1,0 +1,23 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} */
+
+body {
+    /* margin: 0; */
+    /* padding: 20px 15px; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.container {
+    /* border: 1px solid red; */
+    display: grid;
+    height: 500px;
+    grid-template-columns: 100px 200px;
+    /* grid-template-rows: 100px 80px; */
+
+}
