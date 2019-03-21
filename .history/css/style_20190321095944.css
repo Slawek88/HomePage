@@ -208,7 +208,7 @@ h2 {
   grid-area: box6;
 }
 
-@media only screen and (max-width: 707px) {
+@media only screen and (max-width: 700px) {
   body,
   .grid-item {
     font-size: 14px;
@@ -248,7 +248,7 @@ h2 {
       height: 352px;
     }
   } */
-  @media only screen and (min-width: 505px) and (max-width: 707px) and (orientation: landscape) {
+  @media only screen and (max-width: 700px) and (orientation: landscape) {
     body,
     .grid-img img {
       height: 352px;
