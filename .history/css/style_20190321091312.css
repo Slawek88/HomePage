@@ -207,7 +207,13 @@ h2 {
 .grid-footer {
   grid-area: box6;
 }
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+  .grid-img img {
+    height: 352px;
+  }
+}
 
+/* Przy mniejszej rozdzielczosci zmniejsza wysokosc img!!! */
 @media only screen and (max-width: 700px) {
   body,
   .grid-item {
@@ -241,11 +247,5 @@ h2 {
   .company-info h3,
   .company-info ul {
     text-align: left;
-  }
-  @media all and (orientation: landscape) {
-    body,
-    .grid-img img {
-      height: 352px;
-    }
   }
 }

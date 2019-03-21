@@ -208,6 +208,7 @@ h2 {
   grid-area: box6;
 }
 
+/* Przy mniejszej rozdzielczosci zmniejsza wysokosc img!!! */
 @media only screen and (max-width: 700px) {
   body,
   .grid-item {
