@@ -209,6 +209,7 @@ h2 {
 }
 
 @media only screen and (max-width: 707px) {
+
   body,
   .grid-item {
     font-size: 14px;
@@ -234,7 +235,7 @@ h2 {
     grid-template-columns: 1fr 2fr;
   }
 
-  .wrapper > * {
+  .wrapper>* {
     padding: 2em;
   }
 
@@ -242,13 +243,21 @@ h2 {
   .company-info ul {
     text-align: left;
   }
-  /* @media all and (orientation: landscape) {
-    body,
-    .grid-img img {
-      height: 352px;
-    }
-  } */
+
+  .grid-overview ul,
+  .grid-destriction h2,
+  .grid-overview,
+  .grid-info h2,
+  .grid-info ul {
+    display: grid;
+    grid-gap: 7px;
+    padding: 0;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
   @media only screen and (min-width: 505px) and (max-width: 707px) and (orientation: landscape) {
+
     body,
     .grid-img img {
       height: 352px;
